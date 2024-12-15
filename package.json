@@ -1,0 +1,15 @@
+{
+  "name": "ScientificCalculator",
+  "version": "1.0.0",
+  "scripts": {
+    "serve": "nodemon main.js"
+  },
+  "dependencies": {
+    "": "file:",
+    "lodash": "^4.17.21"
+  },
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

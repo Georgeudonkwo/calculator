@@ -1,0 +1,112 @@
+h1{
+    text-align: center;
+}
+.container{
+    display: grid;
+    width: 200px;
+    height: 250px;
+    background-color: gray;
+    box-shadow: 5px 5px 2px rgb(0, 0, 0,0.5),
+    5px 5px 2px rgb(0, 0, 0,0.5);
+    margin-left: auto;
+    margin-right: auto;
+    border: 10x solid rgb(0, 0, 0);
+    grid-template-areas: "screen" "screen" "screen" "screen"
+                          "trig" "trig" "trig" "trig"
+                          "log" "log" "log" "log"
+                          "row1num" "row1num" "row1num" "row1num"
+                          "row2num" "row2num" "row2num" "row2num"
+                          "row3num" "row3num" "row3num" "row3num"
+                          "row4num" "row4num" "row4num" "row4num"
+                          "row5num" "row5num" "row5num" "row5num";
+}
+.screen{
+    grid-area: "screen";
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: aqua;
+}
+.trig{
+    grid-area: "trig";
+    justify-content:space-evenly;
+    width: 200px;
+}
+.logandexp{
+    grid-area: "log";
+    justify-content: space-between;
+    width: 200px;
+}
+.num1row{
+    grid-area: "row1num";
+    justify-content: space-between;
+    width: 200px;
+}
+.num2row{
+    grid-area: "row2num";
+    justify-content: space-between;
+    width: 200px;
+}
+.num3row{
+    grid-area: "row3num";
+    justify-content: space-between;
+    width: 200px;
+}
+.num4row{
+    grid-area: "row4num";
+    justify-content: space-between;
+    width: 200px;
+}
+.num5row{
+    grid-area: "row5num";
+    justify-content: space-between;
+    width: 200px;
+}
+.trig-input{
+    width: 45px;
+    background-color: coral;
+}
+.log-input{
+    width: 45px;
+    background-color: coral;
+}
+.num1-input{
+    width: 45px;
+    background-color: lightskyblue;
+}
+.num2-input{
+    width: 45px;
+    background-color: lightskyblue;
+}
+.num3-input{
+    width: 45px;
+    background-color: lightskyblue;
+}
+.num4-input{
+    width: 45px;
+    background-color: lightskyblue;
+}
+.num5-input{
+    width: 45px;
+}
+input#add{
+    background-color: #22ff00;
+}
+input#sub{
+    background-color: #22ff00;
+}
+input#mul{
+    background-color: #22ff00;
+}
+input#pow{
+    background-color: #22ff00;
+}
+input#devide{
+    background-color: #22ff00;
+}
+input#dot{
+    background-color: #ff00ae;
+    font-size: larger;
+    font-weight: bolder;
+}

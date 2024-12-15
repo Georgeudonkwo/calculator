@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>scientific calculator</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="author" content="George Udonkwo"/>
+    <link rel="stylesheet" href="./styles/index.css"/>
+    </head>
+    <body>
+        <h1>Scientific calculator</h1>
+        <div class="container">
+            <input type="text" id="screen" name="screen" />
+            <div class="trig">
+                <input class="trig-input" type="button" id="sin" name="sin" value="sin"/>
+                <input class="trig-input" type="button" id="cos" name="cos" value="cos"/>
+                <input class="trig-input" type="button" id="tan" name="tan" value="tan"/>
+                <input class="trig-input" type="button" id="sec" name="sec" value="sec"/>
+            </div>
+            <div class="logandexp">
+                <input class="log-input" type="button" id="ln" name="ln" value="ln"/>
+                <input class="log-input" type="button" id="log10" name="log10" value="log10"/>
+                <input class="log-input" type="button" id="exp" name="exp" value="exp"/>
+                <input class="log-input" type="button" id="pi" name="PI" value="PI"/>
+            </div>
+            <div class="num1row">
+                <input class="num1-input" type="button" id="zero" name="zero" value="0"/>
+                <input class="num1-input" type="button" id="one" name="one" value="1"/>
+                <input class="num1-input" type="button" id="two" name="two" value="2"/>
+                <input class="num1-input" type="button" id="add" name="add" value="+"/>
+            </div>
+            <div class="num2row">
+                <input class="num2-input" type="button" id="three" name="three" value="3"/>
+                <input class="num2-input" type="button" id="four" name="four" value="4"/>
+                <input class="num2-input" type="button" id="five" name="five" value="5"/>
+                <input class="num2-input" type="button" id="sub" name="sub" value="-"/>
+            </div>
+            <div class="num3row">
+                <input class="num3-input" type="button" id="six" name="six" value="6"/>
+                <input class="num3-input" type="button" id="seven" name="seven" value="7"/>
+                <input class="num3-input" type="button" id="eight" name="eight" value="8"/>
+                <input class="num3-input" type="button" id="mul" name="mul" value="*"/>
+            </div>
+            <div class="num4row">
+                <input class="num4-input" type="button" id="nine" name="nine" value="9"/>
+                <input class="num4-input" type="button" id="dot" name="dot" value="."/>
+                <input class="num4-input" type="button" id="devide" name="devide" value="/"/>
+                <input class="num4-input" type="button" id="pow" name="pow" value="^"/>
+            </div>
+            <div class="num5row">
+                <!--<input type="button" id="nine" name="nine" value="9"/>-->
+                <input class="num5-input" type="button" id="sign" name="sign" value="+/-"/>
+                <!--<input type="button" id="devide" name="devide" value="/"/>-->
+                <input class="num5-input" type="button" id="calc" name="calc" value="="/>
+            </div>
+        </div>
+        <script type="module" src="./main.js"></script>
+    </body>
+
+</html>
